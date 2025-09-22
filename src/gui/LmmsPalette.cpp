@@ -36,7 +36,7 @@ LmmsPalette::LmmsPalette( QWidget * parent, QStyle * stylearg ) :
 	
 /*	sane defaults in case fetching from stylesheet fails*/	
 	
-	m_background( 91, 101, 113 ),
+	m_background( 255, 180, 180 ),
 	m_windowText( 240, 240, 240 ),
 	m_base( 128, 128, 128 ),
 	m_text( 224, 224, 224 ),
