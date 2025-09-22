@@ -169,15 +169,15 @@ QMenu::indicator:selected {
 }
 
 lmms--gui--PositionLine {
-	qproperty-tailGradient: true;
+	qproperty-tailGradient: false;
 	qproperty-lineColor: rgb(255, 255, 255);
 }
 
 lmms--gui--PianoRoll {
 	background-color: #141616;
 	qproperty-backgroundShade: rgba(255, 255, 255, 10);
-	qproperty-noteModeColor: #0bd556;
-	qproperty-noteColor: #0bd556;
+	qproperty-noteModeColor: #eb9595;
+	qproperty-noteColor: #eb9595;
 	qproperty-stepNoteColor: #9b1313;
 	qproperty-currentStepNoteColor: rgb(245, 3, 139);
 	qproperty-noteTextColor: #ffffff;
@@ -206,9 +206,9 @@ lmms--gui--PianoRoll {
 	qproperty-blackKeyDisabledBackground: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #505050, stop:1 #505050);
 
 	/* Grid colors */
-	qproperty-lineColor: #292929;
-	qproperty-beatLineColor: #2d6b45;
-	qproperty-barLineColor: #42a065;
+	qproperty-lineColor: rgba(235, 149, 149, 30);;
+	qproperty-beatLineColor: rgba(255, 255, 255, 30);
+	qproperty-barLineColor: rgba(91, 206, 250, 30);
 
 	/* Text on the white piano keys */
 	qproperty-textColor: #000;
@@ -759,9 +759,9 @@ lmms--gui--PeakIndicator {
 
 /* persistent peak markers for fx peak meters */
 lmms--gui--Fader {
-	qproperty-peakOk: #0ad45c;
-	qproperty-peakWarn: #d6ec52;
-	qproperty-peakClip: #c12038;
+	qproperty-peakOk: #5bcefa;
+	qproperty-peakWarn: #fff;
+	qproperty-peakClip: #eb9595;
 }
 
 lmms--gui--TimeLineWidget {
@@ -786,9 +786,9 @@ lmms--gui--TimeLineWidget {
 
 	/* Properties for the loop indicator rectangle in active state.
 	   See above for detailed description. */
-	qproperty-activeLoopColor: #21A14F;
-	qproperty-activeLoopBrush: #21A14F;
-	qproperty-activeLoopInnerColor: #21A14F;
+	qproperty-activeLoopColor: #eb9595;
+	qproperty-activeLoopBrush: #eb9595;
+	qproperty-activeLoopInnerColor: #eb9595;
 	qproperty-activeLoopHandleColor: rgba( 192, 192, 192, 200 );
 
 	/* Vertical padding for the loop indicator rectangle.
@@ -832,7 +832,7 @@ lmms--gui--ClipView   {
 
 /* MIDI (instrument) clip */
 lmms--gui--MidiClipView {
-	background-color: #21A14F;
+	background-color: #eb9595;
 	color: rgba(255,255,255,220);
 
 	qproperty-noteFillColor: rgba(255, 255, 255, 220);
@@ -844,18 +844,18 @@ lmms--gui--MidiClipView {
 /* sample track clip */
 lmms--gui--SampleClipView {
 	background-color: rgba(42,51,59,255);
-	color: #FF8F05;
+	color: #eb9595;
 }
 
 /* automation clip */
 lmms--gui--AutomationClipView {
-	background-color: #663DE1;
+	background-color: #5BCEFA;
 	color: rgba(255,255,255,90);
 }
 
 /* pattern clip */
 lmms--gui--PatternClipView {
-	background-color: #20BDB2; /* default colour for pattern tracks */
+	background-color: #5BCEFA; /* default colour for pattern tracks */
 }
 
 /* Subwindows in MDI-Area */
